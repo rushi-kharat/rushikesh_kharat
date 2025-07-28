@@ -1,72 +1,52 @@
 // Application data
 const portfolioData = {
   "personalInfo": {
-    "name": "Alex Rodriguez",
-    "title": "Senior QA Automation Engineer",
+    "name": "Rushikesh Kharat",
+    "title": "Software QA Automation Engineer",
     "experience": "5.5+ Years",
-    "location": "San Francisco, CA",
-    "email": "alex.rodriguez@email.com",
-    "phone": "+1 (555) 123-4567",
-    "summary": "Experienced QA Automation Engineer with 5.5+ years of expertise in designing and implementing comprehensive test automation frameworks. Specialized in web and mobile application testing using industry-leading tools and practices."
+    "location": "Pune, Maharashtra, India",
+    "email": "rushikesh.kharat@outlook.com",
+    "phone": "+91-866838682",
+    "summary": "Experienced Software QA Automation Engineer with 5.5+ years of expertise in designing and implementing comprehensive test automation frameworks. Specialized in web and mobile application testing using industry-leading tools and practices."
   },
   "skills": [
-    {"name": "Java", "level": 90, "category": "Programming"},
-    {"name": "Python", "level": 85, "category": "Programming"},
+    {"name": "Python", "level": 90, "category": "Programming"},
+    {"name": "SQL", "level": 85, "category": "Programming"},
     {"name": "JavaScript", "level": 80, "category": "Programming"},
     {"name": "Selenium WebDriver", "level": 95, "category": "Automation"},
-    {"name": "Appium", "level": 85, "category": "Automation"},
-    {"name": "TestNG", "level": 90, "category": "Testing Framework"},
-    {"name": "JUnit", "level": 88, "category": "Testing Framework"},
-    {"name": "Rest Assured", "level": 92, "category": "API Testing"},
+    {"name": "Playwright", "level": 85, "category": "Automation"},
+    {"name": "Pytest", "level": 90, "category": "Testing Framework"},
+    {"name": "BDD", "level": 88, "category": "Testing Framework"},
+    {"name": "Python Request", "level": 92, "category": "API Testing"},
     {"name": "Postman", "level": 90, "category": "API Testing"},
     {"name": "Jenkins", "level": 85, "category": "CI/CD"},
-    {"name": "Git", "level": 88, "category": "Version Control"},
+    {"name": "Git/GitHub", "level": 88, "category": "Version Control"},
     {"name": "JIRA", "level": 90, "category": "Project Management"},
     {"name": "Docker", "level": 75, "category": "DevOps"},
-    {"name": "AWS", "level": 70, "category": "Cloud"}
+    {"name": "AWS", "level": 70, "category": "Cloud"},
+    {"name": "Jmeter", "level": 70, "category": "Automation"}
   ],
   "experience": [
     {
-      "company": "TechCorp Solutions",
-      "position": "Senior QA Automation Engineer",
-      "duration": "2022 - Present",
+      "company": "Integrichain Pvt. Ltd.",
+      "position": "Software QA Automation Engineer",
+      "duration": "2023 - Present",
       "achievements": [
-        "Led automation strategy for 3 major product releases",
+        "Led API automation strategy for 3 major product releases",
         "Reduced manual testing effort by 60% through comprehensive automation",
         "Implemented CI/CD integration with 95% test success rate",
-        "Mentored 4 junior QA engineers in automation best practices"
-      ]
-    },
-    {
-      "company": "Digital Innovations Inc",
-      "position": "QA Automation Engineer",
-      "duration": "2020 - 2022",
-      "achievements": [
-        "Developed mobile automation framework using Appium",
-        "Created API testing suite with 500+ automated test cases",
-        "Improved test execution time by 40% through parallel execution",
-        "Collaborated with DevOps team to optimize testing pipeline"
-      ]
-    },
-    {
-      "company": "StartupTech Labs",
-      "position": "Junior QA Automation Engineer",
-      "duration": "2019 - 2020",
-      "achievements": [
-        "Built web automation framework from scratch using Selenium",
-        "Automated regression testing for e-commerce platform",
-        "Implemented data-driven testing approach",
-        "Achieved 85% test coverage for critical user journeys"
+        "Mentored 2 junior QA engineers in manual + automation best practices"
       ]
     }
+
   ],
   "projects": [
     {
-      "name": "E-commerce Test Automation Framework",
-      "description": "Comprehensive automation framework for large-scale e-commerce platform testing",
+      "name": "Pharmaceutical Pricing and supply chainn management Test Automation Framework",
+      "description": "Comprehensive automation framework for large-scale Hrlthcare and Life sciences pharma platform testing",
       "technologies": ["Java", "Selenium", "TestNG", "Maven", "Jenkins"],
       "highlights": [
-        "500+ automated test cases covering critical user journeys",
+        "1000+ automated test cases covering critical user journeys",
         "Parallel execution reducing test time by 60%",
         "Integration with CI/CD pipeline for continuous testing",
         "Detailed reporting with screenshots and logs"
@@ -85,8 +65,8 @@ const portfolioData = {
     },
     {
       "name": "API Testing Framework",
-      "description": "RESTful API testing framework with comprehensive validation and reporting",
-      "technologies": ["Rest Assured", "Java", "TestNG", "JSON Schema"],
+      "description": "Using Request Module in Python and Playwrigh async API testing framework with comprehensive validation and reporting",
+      "technologies": ["Request Module and Playright", "Python", "Pytest", "JSON Schema"],
       "highlights": [
         "200+ API test cases with comprehensive validation",
         "Schema validation and response time monitoring",
